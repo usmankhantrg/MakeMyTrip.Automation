@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression,Chrome 126.0.0.0,,,09-07-2024 20:24:22,09-07-2024 20:29:14,4m - 52.256s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 126.0.0.0,,,09-07-2024 20:24:23,09-07-2024 20:24:35,12.426s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,09-07-2024 20:24:23,09-07-2024 20:24:29,5.939s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 126.0.0.0,,,09-07-2024 20:24:29,09-07-2024 20:24:30,0.589s,PASSED
+"verifyElementPresent(findTestObject(""Logo""), 0)",Chrome 126.0.0.0,,,09-07-2024 20:24:30,09-07-2024 20:24:32,1.870s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Chrome 126.0.0.0,,,09-07-2024 20:24:32,09-07-2024 20:24:33,1.020s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 126.0.0.0,,,09-07-2024 20:24:33,09-07-2024 20:24:34,0.676s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 126.0.0.0,,,09-07-2024 20:24:34,09-07-2024 20:24:34,0.645s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/div_Swag Labs""))",Chrome 126.0.0.0,,,09-07-2024 20:24:34,09-07-2024 20:24:35,0.470s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Swag Labs/div_Swag Labs""), ""Swag Labs"")",Chrome 126.0.0.0,,,09-07-2024 20:24:35,09-07-2024 20:24:35,0.484s,PASSED
+,,,,,,,
+Test Cases/SelectMenu,Chrome 126.0.0.0,,,09-07-2024 20:24:35,09-07-2024 20:29:14,4m - 39.105s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,09-07-2024 20:24:36,09-07-2024 20:28:01,3m - 24.874s,PASSED
+"click(findTestObject(""HomePage/MenuButton""))",Chrome 126.0.0.0,,,09-07-2024 20:28:01,09-07-2024 20:28:29,28.804s,PASSED
+"click(findTestObject(""HomePage/AllItems""))",Chrome 126.0.0.0,,,09-07-2024 20:28:29,09-07-2024 20:29:00,30.193s,PASSED
+"click(findTestObject(""HomePage/CloseMenu""))",Chrome 126.0.0.0,,,09-07-2024 20:29:00,09-07-2024 20:29:14,14.791s,PASSED
