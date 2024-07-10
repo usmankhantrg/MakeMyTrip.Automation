@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/Data Driven/Login_DataDriven","testCaseId":"Test Cases/Data Driven/Login_DataDriven","iterationVariableName":"","bindedValues":{"Username":"\u0027standard_user\u0027","Password":"\u0027secret_sauce\u0027"}}
+{"testCaseName":"Test Cases/Data Driven/Login_DataDriven","testCaseId":"Test Cases/Data Driven/Login_DataDriven","iterationVariableName":"","bindedValues":{"Username":"\u0027problem_user\u0027","Password":"\u0027secret_sauce\u0027"}}
+{"testCaseName":"Test Cases/Data Driven/Login_DataDriven","testCaseId":"Test Cases/Data Driven/Login_DataDriven","iterationVariableName":"","bindedValues":{"Username":"\u0027performance_glitch_user\u0027","Password":"\u0027secret_sauce\u0027"}}
+{"testCaseName":"Test Cases/Data Driven/Login_DataDriven","testCaseId":"Test Cases/Data Driven/Login_DataDriven","iterationVariableName":"","bindedValues":{"Username":"\u0027error_user\u0027","Password":"\u0027secret_sauce\u0027"}}
+{"testCaseName":"Test Cases/Data Driven/Login_DataDriven","testCaseId":"Test Cases/Data Driven/Login_DataDriven","iterationVariableName":"","bindedValues":{"Username":"\u0027visual_user\u0027","Password":"\u0027secret_sauce\u0027"}}

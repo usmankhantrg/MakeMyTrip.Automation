@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression,Chrome 126.0.0.0,,,10-07-2024 05:04:46,10-07-2024 05:05:02,15.675s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 126.0.0.0,,,10-07-2024 05:04:47,10-07-2024 05:04:55,8.489s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,10-07-2024 05:04:47,10-07-2024 05:04:50,3.263s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 126.0.0.0,,,10-07-2024 05:04:50,10-07-2024 05:04:52,1.375s,PASSED
+"verifyElementPresent(findTestObject(""Logo""), 0)",Chrome 126.0.0.0,,,10-07-2024 05:04:52,10-07-2024 05:04:53,0.824s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Chrome 126.0.0.0,,,10-07-2024 05:04:53,10-07-2024 05:04:53,0.757s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 126.0.0.0,,,10-07-2024 05:04:53,10-07-2024 05:04:54,0.394s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 126.0.0.0,,,10-07-2024 05:04:54,10-07-2024 05:04:54,0.592s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/div_Swag Labs""))",Chrome 126.0.0.0,,,10-07-2024 05:04:54,10-07-2024 05:04:55,0.552s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Swag Labs/div_Swag Labs""), ""Swag Labs"")",Chrome 126.0.0.0,,,10-07-2024 05:04:55,10-07-2024 05:04:55,0.306s,PASSED
+,,,,,,,
+Test Cases/SelectMenu,Chrome 126.0.0.0,,,10-07-2024 05:04:55,10-07-2024 05:05:02,6.847s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,10-07-2024 05:04:55,10-07-2024 05:05:01,5.427s,PASSED
+"click(findTestObject(""HomePage/MenuButton""))",Chrome 126.0.0.0,,,10-07-2024 05:05:01,10-07-2024 05:05:01,0.345s,PASSED
+"click(findTestObject(""HomePage/AllItems""))",Chrome 126.0.0.0,,,10-07-2024 05:05:01,10-07-2024 05:05:02,0.334s,PASSED
+"click(findTestObject(""HomePage/CloseMenu""))",Chrome 126.0.0.0,,,10-07-2024 05:05:02,10-07-2024 05:05:02,0.537s,PASSED
