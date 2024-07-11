@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Book to view Appointment</description>
+   <name>ViewAppointmentHistory</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>921b2817-2bca-4431-8aaa-0cd18eea6823</testCaseGuid>
+</TestCaseEntity>

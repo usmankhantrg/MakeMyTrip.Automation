@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SelectProduct</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ea710139-2ed6-48e8-8450-a8b9312189dd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>477095a1-511c-4ada-a116-521d2168f0b9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Sauce Labs Backpack\r\n'</defaultValue>
+      <description></description>
+      <id>477095a1-511c-4ada-a116-521d2168f0b9</id>
+      <masked>false</masked>
+      <name>ProductName</name>
+   </variable>
+</TestCaseEntity>

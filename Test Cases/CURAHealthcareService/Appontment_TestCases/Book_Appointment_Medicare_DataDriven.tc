@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Book_Appointment_Medicare_DataDriven</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cbf6a261-24f6-4dfb-b097-52c91fe4b785</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>34b51a8a-9d44-43d1-bfd7-5bfbfe5c0d32</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Appointment</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>34b51a8a-9d44-43d1-bfd7-5bfbfe5c0d32</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Date</value>
+      <variableId>195cd5c5-1e5e-467e-ac66-f1d11aeabf45</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>34b51a8a-9d44-43d1-bfd7-5bfbfe5c0d32</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Comments</value>
+      <variableId>3552e663-b2cd-42ff-b442-60a633f293dd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>195cd5c5-1e5e-467e-ac66-f1d11aeabf45</id>
+      <masked>false</masked>
+      <name>Date</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3552e663-b2cd-42ff-b442-60a633f293dd</id>
+      <masked>false</masked>
+      <name>Comments</name>
+   </variable>
+</TestCaseEntity>

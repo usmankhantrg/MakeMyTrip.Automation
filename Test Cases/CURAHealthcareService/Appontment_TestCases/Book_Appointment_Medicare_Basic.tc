@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Book_Appointment_Medicare_Basic</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d310867d-ccb7-4e2d-b51b-01e36032c32a</testCaseGuid>
+</TestCaseEntity>
