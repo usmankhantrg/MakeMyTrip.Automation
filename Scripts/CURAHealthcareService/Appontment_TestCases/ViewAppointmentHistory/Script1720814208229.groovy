@@ -17,18 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CURAHealthcareService/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CURAHealthcareService/Appontment_TestCases/Book_Appointment_Medicare_Basic'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('CURAHealthcareService/AppointmentPageObjects/Select_Facility'), 'Hongkong CURA Healthcare Center', 
-    false)
+WebUI.click(findTestObject('CURAHealthcareService/AppointmentPageObjects/Menu_Button'))
 
-WebUI.click(findTestObject('CURAHealthcareService/AppointmentPageObjects/Select_Healthcare_Program_Medicare'))
+WebUI.click(findTestObject('CURAHealthcareService/AppointmentPageObjects/History'))
 
-WebUI.setText(findTestObject('CURAHealthcareService/AppointmentPageObjects/Visit_Date'), '20/07/2024')
+WebUI.click(findTestObject('CURAHealthcareService/AppointmentPageObjects/Menu_Button'))
 
-WebUI.click(findTestObject('CURAHealthcareService/AppointmentPageObjects/Comment'))
-
-WebUI.setText(findTestObject('CURAHealthcareService/AppointmentPageObjects/Comment'), 'Test Apppointment')
-
-WebUI.click(findTestObject('CURAHealthcareService/AppointmentPageObjects/Book_Appointment_Button'))
+WebUI.click(findTestObject('CURAHealthcareService/AppointmentPageObjects/Logout'))
 
