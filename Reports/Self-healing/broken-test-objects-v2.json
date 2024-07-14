@@ -9,6 +9,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Swag Labs/div_Swag Labs_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/SauceDemo/Page_Swag Labs/div_Sauce Labs Backpack",
+      "brokenLocator": "//a[@id\u003d\u0027item_4_title_link\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027$29.99\u0027])[1]/preceding::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/SauceDemo/Page_Swag Labs/div_Sauce Labs Backpack_neighbor.png"
     }
   ]
 }

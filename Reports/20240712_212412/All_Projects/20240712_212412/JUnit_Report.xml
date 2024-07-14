@@ -1,0 +1,1197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="All_Projects" time="191.932" tests="13" failures="1" errors="0">
+   <testsuite name="CURAHealthcareServices" tests="5" failures="0" errors="0" time="52.476" skipped="0" timestamp="12-07-2024T21:24:21" hostname="usman - 192.168.0.125" id="Test Suites/CURAHealthcareServices">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\usman\\Katalon Studio\\SauceDemo\\Reports\\20240712_212412\\CURAHealthcareServices\\20240712_212413"/>
+         <property name="logFiles" value="C:\\Users\\usman\\Katalon Studio\\SauceDemo\\Reports\\20240712_212412\\CURAHealthcareServices\\20240712_212413\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="usman - 192.168.0.125"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.125"/>
+         <property name="sessionId" value="b1d84eafa9fc22f0ec6224ef65fa3df4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=USE_SYSTEM, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/CURAHealthcareService/Appontment_TestCases/Book_Appointment_Medicare_Basic" time="11.174" classname="Test Cases/CURAHealthcareService/Appontment_TestCases/Book_Appointment_Medicare_Basic" status="PASSED">
+         <system-out><![CDATA[12-07-2024T21:24:21 - [TEST_CASE][PASSED] - Test Cases/CURAHealthcareService/Appontment_TestCases/Book_Appointment_Medicare_Basic: Test Cases/CURAHealthcareService/Appontment_TestCases/Book_Appointment_Medicare_Basic
+
+12-07-2024T21:24:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CURAHealthcareService/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CURAHealthcareService/Login' successfully
+
+12-07-2024T21:24:21 - [TEST_CASE][PASSED] - Test Cases/CURAHealthcareService/Login: Test Cases/CURAHealthcareService/Login
+
+12-07-2024T21:24:21 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+12-07-2024T21:24:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T21:24:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T21:24:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+12-07-2024T21:24:25 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/Page_CURA Healthcare Service/MakeAppointment_button")): Object: 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/MakeAppointment_button' is clicked on
+
+12-07-2024T21:24:26 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/MakeAppointment_button' is clicked on
+
+12-07-2024T21:24:26 - [TEST_STEP][PASSED] - setText(findTestObject("CURAHealthcareService/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/input_Username_username'
+
+12-07-2024T21:24:27 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/input_Username_username'
+
+12-07-2024T21:24:27 - [TEST_STEP][PASSED] - setText(findTestObject("CURAHealthcareService/Page_CURA Healthcare Service/input_Password_password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/input_Password_password'
+
+12-07-2024T21:24:28 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/input_Password_password'
+
+12-07-2024T21:24:28 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/button_Login' is clicked on
+
+12-07-2024T21:24:28 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/button_Login' is clicked on
+
+12-07-2024T21:24:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CURAHealthcareService/Login' successfully
+
+12-07-2024T21:24:28 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("CURAHealthcareService/AppointmentPageObjects/Select_Facility"), "Hongkong CURA Healthcare Center", false): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Select_Facility' 
+
+12-07-2024T21:24:29 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Select_Facility' 
+
+12-07-2024T21:24:29 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/AppointmentPageObjects/Select_Healthcare_Program_Medicare")): Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Select_Healthcare_Program_Medicare' is clicked on
+
+12-07-2024T21:24:29 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Select_Healthcare_Program_Medicare' is clicked on
+
+12-07-2024T21:24:29 - [TEST_STEP][PASSED] - setText(findTestObject("CURAHealthcareService/AppointmentPageObjects/Visit_Date"), "20/07/2024"): Text '20/07/2024' is set on object 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Visit_Date'
+
+12-07-2024T21:24:30 - [MESSAGE][PASSED] - Text '20/07/2024' is set on object 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Visit_Date'
+
+12-07-2024T21:24:30 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/AppointmentPageObjects/Comment")): Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Comment' is clicked on
+
+12-07-2024T21:24:31 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Comment' is clicked on
+
+12-07-2024T21:24:31 - [TEST_STEP][PASSED] - setText(findTestObject("CURAHealthcareService/AppointmentPageObjects/Comment"), "Test Apppointment"): Text 'Test Apppointment' is set on object 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Comment'
+
+12-07-2024T21:24:31 - [MESSAGE][PASSED] - Text 'Test Apppointment' is set on object 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Comment'
+
+12-07-2024T21:24:31 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/AppointmentPageObjects/Book_Appointment_Button")): Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Book_Appointment_Button' is clicked on
+
+12-07-2024T21:24:32 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Book_Appointment_Button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CURAHealthcareService/Appontment_TestCases/Book_Appointment_Medicare_DataDriven" time="12.281" classname="Test Cases/CURAHealthcareService/Appontment_TestCases/Book_Appointment_Medicare_DataDriven" status="PASSED">
+         <system-out><![CDATA[12-07-2024T21:24:32 - [TEST_CASE][PASSED] - Test Cases/CURAHealthcareService/Appontment_TestCases/Book_Appointment_Medicare_DataDriven: Test Cases/CURAHealthcareService/Appontment_TestCases/Book_Appointment_Medicare_DataDriven
+
+12-07-2024T21:24:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CURAHealthcareService/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CURAHealthcareService/Login' successfully
+
+12-07-2024T21:24:32 - [TEST_CASE][PASSED] - Test Cases/CURAHealthcareService/Login: Test Cases/CURAHealthcareService/Login
+
+12-07-2024T21:24:32 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+12-07-2024T21:24:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-07-2024T21:24:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T21:24:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T21:24:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+12-07-2024T21:24:35 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/Page_CURA Healthcare Service/MakeAppointment_button")): Object: 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/MakeAppointment_button' is clicked on
+
+12-07-2024T21:24:36 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/MakeAppointment_button' is clicked on
+
+12-07-2024T21:24:36 - [TEST_STEP][PASSED] - setText(findTestObject("CURAHealthcareService/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/input_Username_username'
+
+12-07-2024T21:24:37 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/input_Username_username'
+
+12-07-2024T21:24:37 - [TEST_STEP][PASSED] - setText(findTestObject("CURAHealthcareService/Page_CURA Healthcare Service/input_Password_password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/input_Password_password'
+
+12-07-2024T21:24:38 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/input_Password_password'
+
+12-07-2024T21:24:38 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/button_Login' is clicked on
+
+12-07-2024T21:24:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/button_Login' is clicked on
+
+12-07-2024T21:24:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CURAHealthcareService/Login' successfully
+
+12-07-2024T21:24:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("CURAHealthcareService/AppointmentPageObjects/Select_Facility"), "Hongkong CURA Healthcare Center", false): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Select_Facility' 
+
+12-07-2024T21:24:39 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Select_Facility' 
+
+12-07-2024T21:24:39 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/AppointmentPageObjects/Select_Healthcare_Program_Medicare")): Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Select_Healthcare_Program_Medicare' is clicked on
+
+12-07-2024T21:24:39 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Select_Healthcare_Program_Medicare' is clicked on
+
+12-07-2024T21:24:39 - [TEST_STEP][PASSED] - setText(findTestObject("CURAHealthcareService/AppointmentPageObjects/Visit_Date"), "20/07/2024"): Text '20/07/2024' is set on object 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Visit_Date'
+
+12-07-2024T21:24:40 - [MESSAGE][PASSED] - Text '20/07/2024' is set on object 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Visit_Date'
+
+12-07-2024T21:24:40 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/AppointmentPageObjects/Comment")): Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Comment' is clicked on
+
+12-07-2024T21:24:41 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Comment' is clicked on
+
+12-07-2024T21:24:41 - [TEST_STEP][PASSED] - setText(findTestObject("CURAHealthcareService/AppointmentPageObjects/Comment"), Comments): Text 'My Second Appointment' is set on object 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Comment'
+
+12-07-2024T21:24:41 - [MESSAGE][PASSED] - Text 'My Second Appointment' is set on object 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Comment'
+
+12-07-2024T21:24:41 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/AppointmentPageObjects/Book_Appointment_Button")): Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Book_Appointment_Button' is clicked on
+
+12-07-2024T21:24:42 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Book_Appointment_Button' is clicked on
+
+12-07-2024T21:24:42 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/AppointmentPageObjects/Menu_Button")): Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Menu_Button' is clicked on
+
+12-07-2024T21:24:42 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Menu_Button' is clicked on
+
+12-07-2024T21:24:42 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/AppointmentPageObjects/Logout")): Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Logout' is clicked on
+
+12-07-2024T21:24:43 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Logout' is clicked on
+
+12-07-2024T21:24:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-07-2024T21:24:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CURAHealthcareService/Appontment_TestCases/Book_Appointment_Medicare_DataDriven" time="10.557" classname="Test Cases/CURAHealthcareService/Appontment_TestCases/Book_Appointment_Medicare_DataDriven" status="PASSED">
+         <system-out><![CDATA[12-07-2024T21:24:44 - [TEST_CASE][PASSED] - Test Cases/CURAHealthcareService/Appontment_TestCases/Book_Appointment_Medicare_DataDriven: Test Cases/CURAHealthcareService/Appontment_TestCases/Book_Appointment_Medicare_DataDriven
+
+12-07-2024T21:24:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CURAHealthcareService/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CURAHealthcareService/Login' successfully
+
+12-07-2024T21:24:44 - [TEST_CASE][PASSED] - Test Cases/CURAHealthcareService/Login: Test Cases/CURAHealthcareService/Login
+
+12-07-2024T21:24:44 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+12-07-2024T21:24:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T21:24:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T21:24:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+12-07-2024T21:24:47 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/Page_CURA Healthcare Service/MakeAppointment_button")): Object: 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/MakeAppointment_button' is clicked on
+
+12-07-2024T21:24:48 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/MakeAppointment_button' is clicked on
+
+12-07-2024T21:24:48 - [TEST_STEP][PASSED] - setText(findTestObject("CURAHealthcareService/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/input_Username_username'
+
+12-07-2024T21:24:49 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/input_Username_username'
+
+12-07-2024T21:24:49 - [TEST_STEP][PASSED] - setText(findTestObject("CURAHealthcareService/Page_CURA Healthcare Service/input_Password_password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/input_Password_password'
+
+12-07-2024T21:24:49 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/input_Password_password'
+
+12-07-2024T21:24:49 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/button_Login' is clicked on
+
+12-07-2024T21:24:50 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/button_Login' is clicked on
+
+12-07-2024T21:24:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CURAHealthcareService/Login' successfully
+
+12-07-2024T21:24:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("CURAHealthcareService/AppointmentPageObjects/Select_Facility"), "Hongkong CURA Healthcare Center", false): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Select_Facility' 
+
+12-07-2024T21:24:51 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Select_Facility' 
+
+12-07-2024T21:24:51 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/AppointmentPageObjects/Select_Healthcare_Program_Medicare")): Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Select_Healthcare_Program_Medicare' is clicked on
+
+12-07-2024T21:24:51 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Select_Healthcare_Program_Medicare' is clicked on
+
+12-07-2024T21:24:51 - [TEST_STEP][PASSED] - setText(findTestObject("CURAHealthcareService/AppointmentPageObjects/Visit_Date"), "20/07/2024"): Text '20/07/2024' is set on object 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Visit_Date'
+
+12-07-2024T21:24:52 - [MESSAGE][PASSED] - Text '20/07/2024' is set on object 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Visit_Date'
+
+12-07-2024T21:24:52 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/AppointmentPageObjects/Comment")): Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Comment' is clicked on
+
+12-07-2024T21:24:53 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Comment' is clicked on
+
+12-07-2024T21:24:53 - [TEST_STEP][PASSED] - setText(findTestObject("CURAHealthcareService/AppointmentPageObjects/Comment"), Comments): Text 'My Third Appointment' is set on object 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Comment'
+
+12-07-2024T21:24:53 - [MESSAGE][PASSED] - Text 'My Third Appointment' is set on object 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Comment'
+
+12-07-2024T21:24:53 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/AppointmentPageObjects/Book_Appointment_Button")): Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Book_Appointment_Button' is clicked on
+
+12-07-2024T21:24:54 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Book_Appointment_Button' is clicked on
+
+12-07-2024T21:24:54 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/AppointmentPageObjects/Menu_Button")): Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Menu_Button' is clicked on
+
+12-07-2024T21:24:54 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Menu_Button' is clicked on
+
+12-07-2024T21:24:54 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/AppointmentPageObjects/Logout")): Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Logout' is clicked on
+
+12-07-2024T21:24:55 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Logout' is clicked on
+
+12-07-2024T21:24:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-07-2024T21:24:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CURAHealthcareService/Appontment_TestCases/ViewAppointmentHistory" time="11.309" classname="Test Cases/CURAHealthcareService/Appontment_TestCases/ViewAppointmentHistory" status="PASSED">
+         <system-out><![CDATA[12-07-2024T21:24:55 - [TEST_CASE][PASSED] - Test Cases/CURAHealthcareService/Appontment_TestCases/ViewAppointmentHistory: Test Cases/CURAHealthcareService/Appontment_TestCases/ViewAppointmentHistory
+
+12-07-2024T21:24:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CURAHealthcareService/Appontment_TestCases/Book_Appointment_Medicare_Basic"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CURAHealthcareService/Appontment_TestCases/Book_Appointment_Medicare_Basic' successfully
+
+12-07-2024T21:24:55 - [TEST_CASE][PASSED] - Test Cases/CURAHealthcareService/Appontment_TestCases/Book_Appointment_Medicare_Basic: Test Cases/CURAHealthcareService/Appontment_TestCases/Book_Appointment_Medicare_Basic
+
+12-07-2024T21:24:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CURAHealthcareService/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CURAHealthcareService/Login' successfully
+
+12-07-2024T21:24:55 - [TEST_CASE][PASSED] - Test Cases/CURAHealthcareService/Login: Test Cases/CURAHealthcareService/Login
+
+12-07-2024T21:24:55 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+12-07-2024T21:24:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T21:24:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T21:24:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+12-07-2024T21:24:58 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/Page_CURA Healthcare Service/MakeAppointment_button")): Object: 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/MakeAppointment_button' is clicked on
+
+12-07-2024T21:24:59 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/MakeAppointment_button' is clicked on
+
+12-07-2024T21:24:59 - [TEST_STEP][PASSED] - setText(findTestObject("CURAHealthcareService/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/input_Username_username'
+
+12-07-2024T21:24:59 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/input_Username_username'
+
+12-07-2024T21:24:59 - [TEST_STEP][PASSED] - setText(findTestObject("CURAHealthcareService/Page_CURA Healthcare Service/input_Password_password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/input_Password_password'
+
+12-07-2024T21:25:00 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/input_Password_password'
+
+12-07-2024T21:25:00 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/button_Login' is clicked on
+
+12-07-2024T21:25:01 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/button_Login' is clicked on
+
+12-07-2024T21:25:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CURAHealthcareService/Login' successfully
+
+12-07-2024T21:25:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("CURAHealthcareService/AppointmentPageObjects/Select_Facility"), "Hongkong CURA Healthcare Center", false): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Select_Facility' 
+
+12-07-2024T21:25:01 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Select_Facility' 
+
+12-07-2024T21:25:01 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/AppointmentPageObjects/Select_Healthcare_Program_Medicare")): Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Select_Healthcare_Program_Medicare' is clicked on
+
+12-07-2024T21:25:02 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Select_Healthcare_Program_Medicare' is clicked on
+
+12-07-2024T21:25:02 - [TEST_STEP][PASSED] - setText(findTestObject("CURAHealthcareService/AppointmentPageObjects/Visit_Date"), "20/07/2024"): Text '20/07/2024' is set on object 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Visit_Date'
+
+12-07-2024T21:25:03 - [MESSAGE][PASSED] - Text '20/07/2024' is set on object 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Visit_Date'
+
+12-07-2024T21:25:03 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/AppointmentPageObjects/Comment")): Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Comment' is clicked on
+
+12-07-2024T21:25:03 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Comment' is clicked on
+
+12-07-2024T21:25:03 - [TEST_STEP][PASSED] - setText(findTestObject("CURAHealthcareService/AppointmentPageObjects/Comment"), "Test Apppointment"): Text 'Test Apppointment' is set on object 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Comment'
+
+12-07-2024T21:25:04 - [MESSAGE][PASSED] - Text 'Test Apppointment' is set on object 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Comment'
+
+12-07-2024T21:25:04 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/AppointmentPageObjects/Book_Appointment_Button")): Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Book_Appointment_Button' is clicked on
+
+12-07-2024T21:25:04 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Book_Appointment_Button' is clicked on
+
+12-07-2024T21:25:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CURAHealthcareService/Appontment_TestCases/Book_Appointment_Medicare_Basic' successfully
+
+12-07-2024T21:25:04 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/AppointmentPageObjects/Menu_Button")): Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Menu_Button' is clicked on
+
+12-07-2024T21:25:05 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Menu_Button' is clicked on
+
+12-07-2024T21:25:05 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/AppointmentPageObjects/History")): Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/History' is clicked on
+
+12-07-2024T21:25:05 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/History' is clicked on
+
+12-07-2024T21:25:05 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/AppointmentPageObjects/Menu_Button")): Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Menu_Button' is clicked on
+
+12-07-2024T21:25:06 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Menu_Button' is clicked on
+
+12-07-2024T21:25:06 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/AppointmentPageObjects/Logout")): Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Logout' is clicked on
+
+12-07-2024T21:25:06 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/AppointmentPageObjects/Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CURAHealthcareService/Login" time="6.811" classname="Test Cases/CURAHealthcareService/Login" status="PASSED">
+         <system-out><![CDATA[12-07-2024T21:25:06 - [TEST_CASE][PASSED] - Test Cases/CURAHealthcareService/Login: Test Cases/CURAHealthcareService/Login
+
+12-07-2024T21:25:06 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+12-07-2024T21:25:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-07-2024T21:25:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T21:25:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T21:25:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+12-07-2024T21:25:10 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/Page_CURA Healthcare Service/MakeAppointment_button")): Object: 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/MakeAppointment_button' is clicked on
+
+12-07-2024T21:25:11 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/MakeAppointment_button' is clicked on
+
+12-07-2024T21:25:11 - [TEST_STEP][PASSED] - setText(findTestObject("CURAHealthcareService/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/input_Username_username'
+
+12-07-2024T21:25:12 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/input_Username_username'
+
+12-07-2024T21:25:12 - [TEST_STEP][PASSED] - setText(findTestObject("CURAHealthcareService/Page_CURA Healthcare Service/input_Password_password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/input_Password_password'
+
+12-07-2024T21:25:12 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/input_Password_password'
+
+12-07-2024T21:25:12 - [TEST_STEP][PASSED] - click(findTestObject("CURAHealthcareService/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/button_Login' is clicked on
+
+12-07-2024T21:25:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CURAHealthcareService/Page_CURA Healthcare Service/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-07-2024T21:24:21 - [TEST_SUITE][PASSED] - CURAHealthcareServices: Test Cases/CURAHealthcareService/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="SauceDemo" tests="8" failures="1" errors="0" time="128.213" skipped="0" timestamp="12-07-2024T21:25:19" hostname="usman - 192.168.0.125" id="Test Suites/SauceDemo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\usman\\Katalon Studio\\SauceDemo\\Reports\\20240712_212412\\SauceDemo\\20240712_212415"/>
+         <property name="logFiles" value="C:\\Users\\usman\\Katalon Studio\\SauceDemo\\Reports\\20240712_212412\\SauceDemo\\20240712_212415\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="usman - 192.168.0.125"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.125"/>
+         <property name="sessionId" value="fc90755fd95d4483f90c867e24a84a15"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=USE_SYSTEM, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/SauceDemo/Data Driven/Login_DataDriven" time="7.712" classname="Test Cases/SauceDemo/Data Driven/Login_DataDriven" status="PASSED">
+         <system-out><![CDATA[12-07-2024T21:25:19 - [TEST_CASE][PASSED] - Test Cases/SauceDemo/Data Driven/Login_DataDriven: Test Cases/SauceDemo/Data Driven/Login_DataDriven
+
+12-07-2024T21:25:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-07-2024T21:25:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T21:25:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T21:25:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-07-2024T21:25:22 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+12-07-2024T21:25:23 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+12-07-2024T21:25:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SauceDemo/Logo"), 0): Object 'Object Repository/SauceDemo/Logo' is present
+
+12-07-2024T21:25:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-07-2024T21:25:24 - [MESSAGE][PASSED] - Object 'Object Repository/SauceDemo/Logo' is present
+
+12-07-2024T21:25:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name"), Username): Text 'standard_user' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name'
+
+12-07-2024T21:25:24 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name'
+
+12-07-2024T21:25:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_password"), Password): Text 'secret_sauce' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_password'
+
+12-07-2024T21:25:25 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_password'
+
+12-07-2024T21:25:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+12-07-2024T21:25:25 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+12-07-2024T21:25:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs")): Object: 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' is clicked on
+
+12-07-2024T21:25:26 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' is clicked on
+
+12-07-2024T21:25:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs"), "Swag Labs"): Actual text and expected text of test object 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' are matched.
+
+12-07-2024T21:25:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' are matched.
+
+12-07-2024T21:25:26 - [TEST_STEP][PASSED] - click(findTestObject("SauceDemo/HomePage/MenuButton")): Object: 'Object Repository/SauceDemo/HomePage/MenuButton' is clicked on
+
+12-07-2024T21:25:27 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/HomePage/MenuButton' is clicked on
+
+12-07-2024T21:25:27 - [TEST_STEP][PASSED] - click(findTestObject("SauceDemo/HomePage/Logout")): Object: 'Object Repository/SauceDemo/HomePage/Logout' is clicked on
+
+12-07-2024T21:25:27 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/HomePage/Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SauceDemo/Data Driven/Login_DataDriven" time="5.906" classname="Test Cases/SauceDemo/Data Driven/Login_DataDriven" status="PASSED">
+         <system-out><![CDATA[12-07-2024T21:25:27 - [TEST_CASE][PASSED] - Test Cases/SauceDemo/Data Driven/Login_DataDriven: Test Cases/SauceDemo/Data Driven/Login_DataDriven
+
+12-07-2024T21:25:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-07-2024T21:25:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-07-2024T21:25:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T21:25:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T21:25:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-07-2024T21:25:28 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+12-07-2024T21:25:29 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+12-07-2024T21:25:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SauceDemo/Logo"), 0): Object 'Object Repository/SauceDemo/Logo' is present
+
+12-07-2024T21:25:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-07-2024T21:25:30 - [MESSAGE][PASSED] - Object 'Object Repository/SauceDemo/Logo' is present
+
+12-07-2024T21:25:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name"), Username): Text 'problem_user' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name'
+
+12-07-2024T21:25:30 - [MESSAGE][PASSED] - Text 'problem_user' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name'
+
+12-07-2024T21:25:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_password"), Password): Text 'secret_sauce' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_password'
+
+12-07-2024T21:25:31 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_password'
+
+12-07-2024T21:25:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+12-07-2024T21:25:31 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+12-07-2024T21:25:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs")): Object: 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' is clicked on
+
+12-07-2024T21:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' is clicked on
+
+12-07-2024T21:25:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs"), "Swag Labs"): Actual text and expected text of test object 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' are matched.
+
+12-07-2024T21:25:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' are matched.
+
+12-07-2024T21:25:32 - [TEST_STEP][PASSED] - click(findTestObject("SauceDemo/HomePage/MenuButton")): Object: 'Object Repository/SauceDemo/HomePage/MenuButton' is clicked on
+
+12-07-2024T21:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/HomePage/MenuButton' is clicked on
+
+12-07-2024T21:25:32 - [TEST_STEP][PASSED] - click(findTestObject("SauceDemo/HomePage/Logout")): Object: 'Object Repository/SauceDemo/HomePage/Logout' is clicked on
+
+12-07-2024T21:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/HomePage/Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SauceDemo/Data Driven/Login_DataDriven" time="11.304" classname="Test Cases/SauceDemo/Data Driven/Login_DataDriven" status="PASSED">
+         <system-out><![CDATA[12-07-2024T21:25:33 - [TEST_CASE][PASSED] - Test Cases/SauceDemo/Data Driven/Login_DataDriven: Test Cases/SauceDemo/Data Driven/Login_DataDriven
+
+12-07-2024T21:25:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-07-2024T21:25:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-07-2024T21:25:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T21:25:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T21:25:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-07-2024T21:25:34 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+12-07-2024T21:25:35 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+12-07-2024T21:25:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SauceDemo/Logo"), 0): Object 'Object Repository/SauceDemo/Logo' is present
+
+12-07-2024T21:25:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-07-2024T21:25:36 - [MESSAGE][PASSED] - Object 'Object Repository/SauceDemo/Logo' is present
+
+12-07-2024T21:25:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name"), Username): Text 'performance_glitch_user' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name'
+
+12-07-2024T21:25:37 - [MESSAGE][PASSED] - Text 'performance_glitch_user' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name'
+
+12-07-2024T21:25:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_password"), Password): Text 'secret_sauce' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_password'
+
+12-07-2024T21:25:37 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_password'
+
+12-07-2024T21:25:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+12-07-2024T21:25:43 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+12-07-2024T21:25:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs")): Object: 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' is clicked on
+
+12-07-2024T21:25:43 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' is clicked on
+
+12-07-2024T21:25:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs"), "Swag Labs"): Actual text and expected text of test object 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' are matched.
+
+12-07-2024T21:25:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' are matched.
+
+12-07-2024T21:25:44 - [TEST_STEP][PASSED] - click(findTestObject("SauceDemo/HomePage/MenuButton")): Object: 'Object Repository/SauceDemo/HomePage/MenuButton' is clicked on
+
+12-07-2024T21:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/HomePage/MenuButton' is clicked on
+
+12-07-2024T21:25:44 - [TEST_STEP][PASSED] - click(findTestObject("SauceDemo/HomePage/Logout")): Object: 'Object Repository/SauceDemo/HomePage/Logout' is clicked on
+
+12-07-2024T21:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/HomePage/Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SauceDemo/Data Driven/Login_DataDriven" time="7.198" classname="Test Cases/SauceDemo/Data Driven/Login_DataDriven" status="PASSED">
+         <system-out><![CDATA[12-07-2024T21:25:44 - [TEST_CASE][PASSED] - Test Cases/SauceDemo/Data Driven/Login_DataDriven: Test Cases/SauceDemo/Data Driven/Login_DataDriven
+
+12-07-2024T21:25:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-07-2024T21:25:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-07-2024T21:25:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T21:25:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T21:25:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-07-2024T21:25:46 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+12-07-2024T21:25:47 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+12-07-2024T21:25:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SauceDemo/Logo"), 0): Object 'Object Repository/SauceDemo/Logo' is present
+
+12-07-2024T21:25:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-07-2024T21:25:48 - [MESSAGE][PASSED] - Object 'Object Repository/SauceDemo/Logo' is present
+
+12-07-2024T21:25:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name"), Username): Text 'error_user' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name'
+
+12-07-2024T21:25:49 - [MESSAGE][PASSED] - Text 'error_user' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name'
+
+12-07-2024T21:25:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_password"), Password): Text 'secret_sauce' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_password'
+
+12-07-2024T21:25:50 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_password'
+
+12-07-2024T21:25:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+12-07-2024T21:25:50 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+12-07-2024T21:25:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs")): Object: 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' is clicked on
+
+12-07-2024T21:25:50 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' is clicked on
+
+12-07-2024T21:25:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs"), "Swag Labs"): Actual text and expected text of test object 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' are matched.
+
+12-07-2024T21:25:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' are matched.
+
+12-07-2024T21:25:51 - [TEST_STEP][PASSED] - click(findTestObject("SauceDemo/HomePage/MenuButton")): Object: 'Object Repository/SauceDemo/HomePage/MenuButton' is clicked on
+
+12-07-2024T21:25:51 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/HomePage/MenuButton' is clicked on
+
+12-07-2024T21:25:51 - [TEST_STEP][PASSED] - click(findTestObject("SauceDemo/HomePage/Logout")): Object: 'Object Repository/SauceDemo/HomePage/Logout' is clicked on
+
+12-07-2024T21:25:51 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/HomePage/Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SauceDemo/Data Driven/Login_DataDriven" time="6.497" classname="Test Cases/SauceDemo/Data Driven/Login_DataDriven" status="PASSED">
+         <system-out><![CDATA[12-07-2024T21:25:51 - [TEST_CASE][PASSED] - Test Cases/SauceDemo/Data Driven/Login_DataDriven: Test Cases/SauceDemo/Data Driven/Login_DataDriven
+
+12-07-2024T21:25:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-07-2024T21:25:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-07-2024T21:25:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T21:25:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T21:25:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-07-2024T21:25:52 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+12-07-2024T21:25:54 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+12-07-2024T21:25:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SauceDemo/Logo"), 0): Object 'Object Repository/SauceDemo/Logo' is present
+
+12-07-2024T21:25:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-07-2024T21:25:55 - [MESSAGE][PASSED] - Object 'Object Repository/SauceDemo/Logo' is present
+
+12-07-2024T21:25:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name"), Username): Text 'visual_user' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name'
+
+12-07-2024T21:25:55 - [MESSAGE][PASSED] - Text 'visual_user' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name'
+
+12-07-2024T21:25:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_password"), Password): Text 'secret_sauce' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_password'
+
+12-07-2024T21:25:56 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_password'
+
+12-07-2024T21:25:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+12-07-2024T21:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+12-07-2024T21:25:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs")): Object: 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' is clicked on
+
+12-07-2024T21:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' is clicked on
+
+12-07-2024T21:25:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs"), "Swag Labs"): Actual text and expected text of test object 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' are matched.
+
+12-07-2024T21:25:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' are matched.
+
+12-07-2024T21:25:57 - [TEST_STEP][PASSED] - click(findTestObject("SauceDemo/HomePage/MenuButton")): Object: 'Object Repository/SauceDemo/HomePage/MenuButton' is clicked on
+
+12-07-2024T21:25:58 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/HomePage/MenuButton' is clicked on
+
+12-07-2024T21:25:58 - [TEST_STEP][PASSED] - click(findTestObject("SauceDemo/HomePage/Logout")): Object: 'Object Repository/SauceDemo/HomePage/Logout' is clicked on
+
+12-07-2024T21:25:58 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/HomePage/Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SauceDemo/Login" time="4.868" classname="Test Cases/SauceDemo/Login" status="PASSED">
+         <system-out><![CDATA[12-07-2024T21:25:58 - [TEST_CASE][PASSED] - Test Cases/SauceDemo/Login: Test Cases/SauceDemo/Login
+
+12-07-2024T21:25:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-07-2024T21:25:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-07-2024T21:25:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T21:25:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T21:25:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-07-2024T21:25:59 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+12-07-2024T21:26:00 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+12-07-2024T21:26:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SauceDemo/Logo"), 0): Object 'Object Repository/SauceDemo/Logo' is present
+
+12-07-2024T21:26:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-07-2024T21:26:00 - [MESSAGE][PASSED] - Object 'Object Repository/SauceDemo/Logo' is present
+
+12-07-2024T21:26:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name'
+
+12-07-2024T21:26:01 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name'
+
+12-07-2024T21:26:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_password'
+
+12-07-2024T21:26:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_password'
+
+12-07-2024T21:26:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+12-07-2024T21:26:02 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+12-07-2024T21:26:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs")): Object: 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' is clicked on
+
+12-07-2024T21:26:02 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' is clicked on
+
+12-07-2024T21:26:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs"), "Swag Labs"): Actual text and expected text of test object 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' are matched.
+
+12-07-2024T21:26:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SauceDemo/ProductsPage/SelectMenu" time="6.703" classname="Test Cases/SauceDemo/ProductsPage/SelectMenu" status="PASSED">
+         <system-out><![CDATA[12-07-2024T21:26:03 - [TEST_CASE][PASSED] - Test Cases/SauceDemo/ProductsPage/SelectMenu: Test Cases/SauceDemo/ProductsPage/SelectMenu
+
+12-07-2024T21:26:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SauceDemo/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SauceDemo/Login' successfully
+
+12-07-2024T21:26:03 - [TEST_CASE][PASSED] - Test Cases/SauceDemo/Login: Test Cases/SauceDemo/Login
+
+12-07-2024T21:26:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-07-2024T21:26:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-07-2024T21:26:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T21:26:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T21:26:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-07-2024T21:26:04 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+12-07-2024T21:26:05 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+12-07-2024T21:26:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SauceDemo/Logo"), 0): Object 'Object Repository/SauceDemo/Logo' is present
+
+12-07-2024T21:26:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-07-2024T21:26:06 - [MESSAGE][PASSED] - Object 'Object Repository/SauceDemo/Logo' is present
+
+12-07-2024T21:26:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name'
+
+12-07-2024T21:26:07 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name'
+
+12-07-2024T21:26:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_password'
+
+12-07-2024T21:26:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_password'
+
+12-07-2024T21:26:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+12-07-2024T21:26:08 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+12-07-2024T21:26:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs")): Object: 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' is clicked on
+
+12-07-2024T21:26:08 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' is clicked on
+
+12-07-2024T21:26:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs"), "Swag Labs"): Actual text and expected text of test object 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' are matched.
+
+12-07-2024T21:26:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SauceDemo/Page_Swag Labs/div_Swag Labs' are matched.
+
+12-07-2024T21:26:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SauceDemo/Login' successfully
+
+12-07-2024T21:26:08 - [TEST_STEP][PASSED] - click(findTestObject("SauceDemo/HomePage/MenuButton")): Object: 'Object Repository/SauceDemo/HomePage/MenuButton' is clicked on
+
+12-07-2024T21:26:09 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/HomePage/MenuButton' is clicked on
+
+12-07-2024T21:26:09 - [TEST_STEP][PASSED] - click(findTestObject("SauceDemo/HomePage/AllItems")): Object: 'Object Repository/SauceDemo/HomePage/AllItems' is clicked on
+
+12-07-2024T21:26:09 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/HomePage/AllItems' is clicked on
+
+12-07-2024T21:26:09 - [TEST_STEP][PASSED] - click(findTestObject("SauceDemo/HomePage/CloseMenu")): Object: 'Object Repository/SauceDemo/HomePage/CloseMenu' is clicked on
+
+12-07-2024T21:26:09 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/HomePage/CloseMenu' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SauceDemo/ProductsPage/SelectProduct" time="27.448" classname="Test Cases/SauceDemo/ProductsPage/SelectProduct" status="FAILED">
+         <failure type="FAILED" message="Test Cases/SauceDemo/ProductsPage/SelectProduct FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/SauceDemo/Page_Swag Labs/div_Sauce Labs Backpack' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)&#xa;	at SelectProduct.run(SelectProduct:32)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1720815855034.run(TempTestSuite1720815855034.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools&#xa;  (failed to check if window was closed: disconnected: not connected to DevTools)&#xa;  (Session info: chrome=126.0.6478.127)&#xa;Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'&#xa;System info: host: 'DESKTOP-1F5MV9L', ip: '192.168.0.125', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\usman\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56452}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: fc90755fd95d4483f90c867e24a84a15&#xa;*** Element info: {Using=xpath, value=//a[@id='item_4_title_link']/div}&#xa;	at jdk.internal.reflect.GeneratedConstructorAccessor29.newInstance(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)&#xa;	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy23.findElements(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1036)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:52)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[12-07-2024T21:27:00 - [TEST_CASE][FAILED] - Test Cases/SauceDemo/ProductsPage/SelectProduct: Test Cases/SauceDemo/ProductsPage/SelectProduct FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/SauceDemo/Page_Swag Labs/div_Sauce Labs Backpack' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at SelectProduct.run(SelectProduct:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720815855034.run(TempTestSuite1720815855034.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-1F5MV9L', ip: '192.168.0.125', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\usman\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56452}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc90755fd95d4483f90c867e24a84a15
+*** Element info: {Using=xpath, value=//a[@id='item_4_title_link']/div}
+	at jdk.internal.reflect.GeneratedConstructorAccessor29.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1036)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+12-07-2024T21:27:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-07-2024T21:27:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-07-2024T21:27:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T21:27:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T21:27:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-07-2024T21:27:01 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+12-07-2024T21:27:02 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+12-07-2024T21:27:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name'
+
+12-07-2024T21:27:03 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name'
+
+12-07-2024T21:27:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_password'
+
+12-07-2024T21:27:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_password'
+
+12-07-2024T21:27:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+12-07-2024T21:27:04 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+12-07-2024T21:27:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/div_Sauce Labs Backpack")): Object: 'Object Repository/SauceDemo/Page_Swag Labs/div_Sauce Labs Backpack' is clicked on
+
+12-07-2024T21:27:04 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo/Page_Swag Labs/div_Sauce Labs Backpack' is clicked on
+
+12-07-2024T21:27:04 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/SauceDemo/Page_Swag Labs/div_Sauce Labs Backpack"), "Sauce Labs Backpack"): Verify element text of test object 'Object Repository/SauceDemo/Page_Swag Labs/div_Sauce Labs Backpack' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/SauceDemo/Page_Swag Labs/div_Sauce Labs Backpack' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at SelectProduct.run(SelectProduct:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720815855034.run(TempTestSuite1720815855034.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-1F5MV9L', ip: '192.168.0.125', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\usman\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56452}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc90755fd95d4483f90c867e24a84a15
+*** Element info: {Using=xpath, value=//a[@id='item_4_title_link']/div}
+	at jdk.internal.reflect.GeneratedConstructorAccessor29.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1036)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Script1720647217639.run(Script1720647217639.groovy:32)
+	... 18 more
+)
+
+12-07-2024T21:27:26 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/SauceDemo/Page_Swag Labs/div_Sauce Labs Backpack'. Try using Self-healing.
+
+12-07-2024T21:27:26 - [MESSAGE][WARNING] - [SELF-HEALING] disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-1F5MV9L', ip: '192.168.0.125', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\usman\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56452}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc90755fd95d4483f90c867e24a84a15
+*** Element info: {Using=xpath, value=//a[@id='item_4_title_link']/div}
+
+12-07-2024T21:27:27 - [MESSAGE][WARNING] - [SELF-HEALING] disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-1F5MV9L', ip: '192.168.0.125', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\usman\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56452}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc90755fd95d4483f90c867e24a84a15
+*** Element info: {Using=xpath, value=//*[(text() = 'Sauce Labs Backpack' or . = 'Sauce Labs Backpack')]}
+
+12-07-2024T21:27:27 - [MESSAGE][WARNING] - [SELF-HEALING] disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-1F5MV9L', ip: '192.168.0.125', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\usman\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56452}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc90755fd95d4483f90c867e24a84a15
+*** Element info: {Using=css selector, value=div.inventory_item_name}
+
+12-07-2024T21:27:27 - [MESSAGE][WARNING] - Cannot take screenshot
+
+12-07-2024T21:27:27 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/SauceDemo/Page_Swag Labs/div_Sauce Labs Backpack' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/SauceDemo/Page_Swag Labs/div_Sauce Labs Backpack' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at SelectProduct.run(SelectProduct:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720815855034.run(TempTestSuite1720815855034.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-1F5MV9L', ip: '192.168.0.125', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\usman\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56452}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc90755fd95d4483f90c867e24a84a15
+*** Element info: {Using=xpath, value=//a[@id='item_4_title_link']/div}
+	at jdk.internal.reflect.GeneratedConstructorAccessor29.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1036)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Script1720647217639.run(Script1720647217639.groovy:32)
+	... 18 more
+)]]></system-out>
+         <system-err><![CDATA[12-07-2024T21:27:00 - [TEST_CASE][FAILED] - Test Cases/SauceDemo/ProductsPage/SelectProduct: Test Cases/SauceDemo/ProductsPage/SelectProduct FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/SauceDemo/Page_Swag Labs/div_Sauce Labs Backpack' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at SelectProduct.run(SelectProduct:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720815855034.run(TempTestSuite1720815855034.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-1F5MV9L', ip: '192.168.0.125', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\usman\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56452}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc90755fd95d4483f90c867e24a84a15
+*** Element info: {Using=xpath, value=//a[@id='item_4_title_link']/div}
+	at jdk.internal.reflect.GeneratedConstructorAccessor29.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1036)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-07-2024T21:25:19 - [TEST_SUITE][FAILED] - SauceDemo: Test Cases/SauceDemo/ProductsPage/SelectProduct FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/SauceDemo/Page_Swag Labs/div_Sauce Labs Backpack' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at SelectProduct.run(SelectProduct:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720815855034.run(TempTestSuite1720815855034.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-1F5MV9L', ip: '192.168.0.125', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\usman\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56337}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a37630e1e17c92a473595fee9b62afc3
+*** Element info: {Using=xpath, value=//a[@id='item_4_title_link']/div}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1036)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[12-07-2024T21:25:19 - [TEST_SUITE][FAILED] - SauceDemo: Test Cases/SauceDemo/ProductsPage/SelectProduct FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/SauceDemo/Page_Swag Labs/div_Sauce Labs Backpack' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at SelectProduct.run(SelectProduct:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720815855034.run(TempTestSuite1720815855034.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-1F5MV9L', ip: '192.168.0.125', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\usman\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56337}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a37630e1e17c92a473595fee9b62afc3
+*** Element info: {Using=xpath, value=//a[@id='item_4_title_link']/div}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1036)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

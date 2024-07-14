@@ -29,5 +29,11 @@ WebUI.click(findTestObject('Object Repository/SauceDemo/Page_Swag Labs/input_Swa
 
 WebUI.click(findTestObject('Object Repository/SauceDemo/Page_Swag Labs/div_Sauce Labs Backpack'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/SauceDemo/Page_Swag Labs/div_Sauce Labs Backpack'), 'Sauce Labs Backpack')
+WebUI.click(findTestObject('SauceDemo/ProductsPage/BackToProducts'))
+
+WebUI.click(findTestObject('SauceDemo/HomePage/MenuButton'))
+
+WebUI.click(findTestObject('SauceDemo/HomePage/Logout'))
+
+WebUI.closeBrowser()
 
