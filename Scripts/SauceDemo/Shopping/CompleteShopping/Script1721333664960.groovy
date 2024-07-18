@@ -17,21 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('SauceDemo/ProductsPage/SelectProduct'), [('ProductName') : 'Sauce Labs Backpack\r\n'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://www.saucedemo.com/')
+WebUI.click(findTestObject('SauceDemo/Cart Page/Checkout'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_user-name'), 'standard_user')
+WebUI.setText(findTestObject('SauceDemo/Checkout Page/FirstName'), 'John')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_password'), 'qcu24s4901FyWDTwXGr6XA==')
+WebUI.setText(findTestObject('SauceDemo/Checkout Page/LastName'), 'Doe')
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_login-button'))
+WebUI.setText(findTestObject('SauceDemo/Checkout Page/PostCode'), '12345')
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/div_Sauce Labs Backpack'))
+WebUI.click(findTestObject('SauceDemo/Checkout Page/ContinueButton'))
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart'))
+WebUI.click(findTestObject('SauceDemo/Checkout_Overview/Finish'))
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/a_1'))
+WebUI.click(findTestObject('SauceDemo/Checkout_Complete/BackToHome'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Swag Labs/div_Sauce Labs Backpack'), 'Sauce Labs Backpack')
+WebUI.click(findTestObject('SauceDemo/HomePage/MenuButton'))
+
+WebUI.click(findTestObject('SauceDemo/HomePage/Logout'))
+
+WebUI.closeBrowser()
 

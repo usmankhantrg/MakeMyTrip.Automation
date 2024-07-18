@@ -57,4 +57,11 @@
          <variableId>477095a1-511c-4ada-a116-521d2168f0b9</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>5fa40997-45a1-4767-989e-11447195ffa9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SauceDemo/ProductsPage/AddProductToCart</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
