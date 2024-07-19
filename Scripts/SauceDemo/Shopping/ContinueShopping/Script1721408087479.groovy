@@ -17,22 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('SauceDemo/ProductsPage/SelectProduct'), [('ProductName') : 'Sauce Labs Backpack\r\n'], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('SauceDemo/Shopping/RemoveProduct'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('SauceDemo/Cart Page/Checkout'))
-
-WebUI.setText(findTestObject('SauceDemo/Checkout Page/FirstName'), 'John')
-
-WebUI.setText(findTestObject('SauceDemo/Checkout Page/LastName'), 'Doe')
-
-WebUI.setText(findTestObject('SauceDemo/Checkout Page/PostCode'), '12345')
-
-WebUI.click(findTestObject('SauceDemo/Checkout Page/ContinueButton'))
-
-WebUI.click(findTestObject('SauceDemo/Checkout_Overview/Finish'))
-
-WebUI.click(findTestObject('SauceDemo/Checkout_Complete/BackToHome'))
+WebUI.click(findTestObject('SauceDemo/Cart Page/ContinueShoppingButton'))
 
 WebUI.callTestCase(findTestCase('SauceDemo/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

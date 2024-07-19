@@ -27,9 +27,3 @@ WebUI.click(findTestObject('SauceDemo/ProductsPage/Your_Cart'))
 
 WebUI.verifyElementText(findTestObject('SauceDemo/ProductsPage/Selected_Product'), 'Sauce Labs Backpack')
 
-WebUI.click(findTestObject('SauceDemo/HomePage/MenuButton'))
-
-WebUI.click(findTestObject('SauceDemo/HomePage/Logout'))
-
-WebUI.closeBrowser()
-
