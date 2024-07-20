@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoginAsBankManager</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ef6f4d2c-d35d-4ead-a7cc-3e895511b64f</testCaseGuid>
+</TestCaseEntity>
