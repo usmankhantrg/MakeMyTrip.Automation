@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Book_Appointment_Medicaid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7195df6c-1285-4b20-b606-b723561c58d9</testCaseGuid>
+</TestCaseEntity>
