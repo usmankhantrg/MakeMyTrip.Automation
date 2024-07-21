@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SelectCustomerWithdrawal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3a5e33e4-eeb4-47ed-baf7-b33d7df4f245</testCaseGuid>
+</TestCaseEntity>

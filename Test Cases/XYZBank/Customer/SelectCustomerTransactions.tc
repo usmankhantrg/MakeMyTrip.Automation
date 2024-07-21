@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SelectCustomerTransactions</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>93a78646-0f1f-47db-ba11-535040d8ba53</testCaseGuid>
+</TestCaseEntity>
