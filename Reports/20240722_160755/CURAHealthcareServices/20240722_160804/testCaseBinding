@@ -1,0 +1,7 @@
+{"testCaseName":"Test Cases/CURAHealthcareService/Appontment_TestCases/Book_Appointment_Medicaid","testCaseId":"Test Cases/CURAHealthcareService/Appontment_TestCases/Book_Appointment_Medicaid","iterationVariableName":""}
+{"testCaseName":"Test Cases/CURAHealthcareService/Appontment_TestCases/Book_Appointment_Medicare_Basic","testCaseId":"Test Cases/CURAHealthcareService/Appontment_TestCases/Book_Appointment_Medicare_Basic","iterationVariableName":""}
+{"testCaseName":"Test Cases/CURAHealthcareService/Appontment_TestCases/Book_Appointment_Medicare_DataDriven","testCaseId":"Test Cases/CURAHealthcareService/Appontment_TestCases/Book_Appointment_Medicare_DataDriven","iterationVariableName":""}
+{"testCaseName":"Test Cases/CURAHealthcareService/Appontment_TestCases/Book_Appointment_None","testCaseId":"Test Cases/CURAHealthcareService/Appontment_TestCases/Book_Appointment_None","iterationVariableName":""}
+{"testCaseName":"Test Cases/CURAHealthcareService/Appontment_TestCases/ViewAppointmentHistory","testCaseId":"Test Cases/CURAHealthcareService/Appontment_TestCases/ViewAppointmentHistory","iterationVariableName":""}
+{"testCaseName":"Test Cases/CURAHealthcareService/Login","testCaseId":"Test Cases/CURAHealthcareService/Login","iterationVariableName":""}
+{"testCaseName":"Test Cases/CURAHealthcareService/Logout","testCaseId":"Test Cases/CURAHealthcareService/Logout","iterationVariableName":""}

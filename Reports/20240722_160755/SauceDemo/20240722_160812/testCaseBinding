@@ -1,0 +1,12 @@
+{"testCaseName":"Test Cases/SauceDemo/Data Driven/Login_DataDriven - Iteration 1","testCaseId":"Test Cases/SauceDemo/Data Driven/Login_DataDriven","iterationVariableName":"","bindedValues":{"Username":"\u0027standard_user\u0027","Password":"\u0027secret_sauce\u0027"}}
+{"testCaseName":"Test Cases/SauceDemo/Data Driven/Login_DataDriven - Iteration 2","testCaseId":"Test Cases/SauceDemo/Data Driven/Login_DataDriven","iterationVariableName":"","bindedValues":{"Username":"\u0027problem_user\u0027","Password":"\u0027secret_sauce\u0027"}}
+{"testCaseName":"Test Cases/SauceDemo/Data Driven/Login_DataDriven - Iteration 3","testCaseId":"Test Cases/SauceDemo/Data Driven/Login_DataDriven","iterationVariableName":"","bindedValues":{"Username":"\u0027performance_glitch_user\u0027","Password":"\u0027secret_sauce\u0027"}}
+{"testCaseName":"Test Cases/SauceDemo/Data Driven/Login_DataDriven - Iteration 4","testCaseId":"Test Cases/SauceDemo/Data Driven/Login_DataDriven","iterationVariableName":"","bindedValues":{"Username":"\u0027error_user\u0027","Password":"\u0027secret_sauce\u0027"}}
+{"testCaseName":"Test Cases/SauceDemo/Data Driven/Login_DataDriven - Iteration 5","testCaseId":"Test Cases/SauceDemo/Data Driven/Login_DataDriven","iterationVariableName":"","bindedValues":{"Username":"\u0027visual_user\u0027","Password":"\u0027secret_sauce\u0027"}}
+{"testCaseName":"Test Cases/SauceDemo/Login","testCaseId":"Test Cases/SauceDemo/Login","iterationVariableName":""}
+{"testCaseName":"Test Cases/SauceDemo/ProductsPage/SelectMenu","testCaseId":"Test Cases/SauceDemo/ProductsPage/SelectMenu","iterationVariableName":""}
+{"testCaseName":"Test Cases/SauceDemo/ProductsPage/SelectProduct","testCaseId":"Test Cases/SauceDemo/ProductsPage/SelectProduct","iterationVariableName":""}
+{"testCaseName":"Test Cases/SauceDemo/ProductsPage/AddProductToCart","testCaseId":"Test Cases/SauceDemo/ProductsPage/AddProductToCart","iterationVariableName":""}
+{"testCaseName":"Test Cases/SauceDemo/Shopping/CompleteShopping","testCaseId":"Test Cases/SauceDemo/Shopping/CompleteShopping","iterationVariableName":""}
+{"testCaseName":"Test Cases/SauceDemo/Shopping/ContinueShopping","testCaseId":"Test Cases/SauceDemo/Shopping/ContinueShopping","iterationVariableName":""}
+{"testCaseName":"Test Cases/SauceDemo/Shopping/RemoveProduct","testCaseId":"Test Cases/SauceDemo/Shopping/RemoveProduct","iterationVariableName":""}
