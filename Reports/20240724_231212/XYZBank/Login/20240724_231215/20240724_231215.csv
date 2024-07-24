@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 126.0.0.0,,,24-07-2024 23:12:38,24-07-2024 23:13:03,25.640s,PASSED
+,,,,,,,
+Test Cases/XYZBank/LoginAsBankManager,Chrome 126.0.0.0,,,24-07-2024 23:12:39,24-07-2024 23:12:54,15.220s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,24-07-2024 23:12:41,24-07-2024 23:12:48,7.675s,PASSED
+navigateToUrl(XYZBank),Chrome 126.0.0.0,,,24-07-2024 23:12:48,24-07-2024 23:12:51,2.766s,PASSED
+"click(findTestObject(""XYZBank/StartPage/LoginasBankManager""))",Chrome 126.0.0.0,,,24-07-2024 23:12:51,24-07-2024 23:12:54,2.820s,PASSED
+,,,,,,,
+Test Cases/XYZBank/LoginAsCustomer,Chrome 126.0.0.0,,,24-07-2024 23:12:54,24-07-2024 23:13:03,9.505s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,24-07-2024 23:12:55,24-07-2024 23:13:01,5.477s,PASSED
+navigateToUrl(XYZBank),Chrome 126.0.0.0,,,24-07-2024 23:13:01,24-07-2024 23:13:02,1.242s,PASSED
+"click(findTestObject(""XYZBank/StartPage/LoginAsCustomer""))",Chrome 126.0.0.0,,,24-07-2024 23:13:02,24-07-2024 23:13:03,1.534s,PASSED

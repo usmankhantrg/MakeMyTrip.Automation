@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="10.542" tests="2" failures="0" errors="0">
+   <testsuite name="Login" tests="2" failures="0" errors="0" time="10.542" skipped="0" timestamp="24-07-2024T23:00:42" hostname="usman - 192.168.0.125" id="Test Suites/XYZBank/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\usman\\Katalon Studio\\SauceDemo\\Reports\\20240724_225923\\XYZBank\\Login\\20240724_225926"/>
+         <property name="logFiles" value="C:\\Users\\usman\\Katalon Studio\\SauceDemo\\Reports\\20240724_225923\\XYZBank\\Login\\20240724_225926\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="usman - 192.168.0.125"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.125"/>
+         <property name="sessionId" value="18de72bcbe0cd89c85dd690ffc44c9c3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/XYZBank/LoginAsBankManager" time="6.12" classname="Test Cases/XYZBank/LoginAsBankManager" status="PASSED">
+         <system-out><![CDATA[24-07-2024T23:00:43 - [TEST_CASE][PASSED] - Test Cases/XYZBank/LoginAsBankManager: Test Cases/XYZBank/LoginAsBankManager
+
+24-07-2024T23:00:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-07-2024T23:00:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-07-2024T23:00:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-07-2024T23:00:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-07-2024T23:00:47 - [TEST_STEP][PASSED] - navigateToUrl(XYZBank): Navigate to 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login' successfully
+
+24-07-2024T23:00:48 - [MESSAGE][PASSED] - Navigate to 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login' successfully
+
+24-07-2024T23:00:48 - [TEST_STEP][PASSED] - click(findTestObject("XYZBank/StartPage/LoginasBankManager")): Object: 'Object Repository/XYZBank/StartPage/LoginasBankManager' is clicked on
+
+24-07-2024T23:00:49 - [MESSAGE][PASSED] - Object: 'Object Repository/XYZBank/StartPage/LoginasBankManager' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/XYZBank/LoginAsCustomer" time="4.093" classname="Test Cases/XYZBank/LoginAsCustomer" status="PASSED">
+         <system-out><![CDATA[24-07-2024T23:00:49 - [TEST_CASE][PASSED] - Test Cases/XYZBank/LoginAsCustomer: Test Cases/XYZBank/LoginAsCustomer
+
+24-07-2024T23:00:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-07-2024T23:00:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+24-07-2024T23:00:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-07-2024T23:00:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-07-2024T23:00:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-07-2024T23:00:51 - [TEST_STEP][PASSED] - navigateToUrl(XYZBank): Navigate to 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login' successfully
+
+24-07-2024T23:00:52 - [MESSAGE][PASSED] - Navigate to 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login' successfully
+
+24-07-2024T23:00:52 - [TEST_STEP][PASSED] - click(findTestObject("XYZBank/StartPage/LoginAsCustomer")): Object: 'Object Repository/XYZBank/StartPage/LoginAsCustomer' is clicked on
+
+24-07-2024T23:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/XYZBank/StartPage/LoginAsCustomer' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-07-2024T23:00:42 - [TEST_SUITE][PASSED] - Login: Test Cases/XYZBank/LoginAsCustomer]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

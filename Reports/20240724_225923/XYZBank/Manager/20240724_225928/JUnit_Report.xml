@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Manager" time="17.313" tests="3" failures="0" errors="0">
+   <testsuite name="Manager" tests="3" failures="0" errors="0" time="17.313" skipped="0" timestamp="24-07-2024T23:01:03" hostname="usman - 192.168.0.125" id="Test Suites/XYZBank/Manager">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\usman\\Katalon Studio\\SauceDemo\\Reports\\20240724_225923\\XYZBank\\Manager\\20240724_225928"/>
+         <property name="logFiles" value="C:\\Users\\usman\\Katalon Studio\\SauceDemo\\Reports\\20240724_225923\\XYZBank\\Manager\\20240724_225928\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="usman - 192.168.0.125"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.125"/>
+         <property name="sessionId" value="beba95aea197329b6dec9718e9fd625c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/XYZBank/BankManager/Customers" time="7.229" classname="Test Cases/XYZBank/BankManager/Customers" status="PASSED">
+         <system-out><![CDATA[24-07-2024T23:01:03 - [TEST_CASE][PASSED] - Test Cases/XYZBank/BankManager/Customers: Test Cases/XYZBank/BankManager/Customers
+
+24-07-2024T23:01:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("XYZBank/LoginAsBankManager"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/XYZBank/LoginAsBankManager' successfully
+
+24-07-2024T23:01:04 - [TEST_CASE][PASSED] - Test Cases/XYZBank/LoginAsBankManager: Test Cases/XYZBank/LoginAsBankManager
+
+24-07-2024T23:01:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-07-2024T23:01:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-07-2024T23:01:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-07-2024T23:01:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-07-2024T23:01:07 - [TEST_STEP][PASSED] - navigateToUrl(XYZBank): Navigate to 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login' successfully
+
+24-07-2024T23:01:09 - [MESSAGE][PASSED] - Navigate to 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login' successfully
+
+24-07-2024T23:01:09 - [TEST_STEP][PASSED] - click(findTestObject("XYZBank/StartPage/LoginasBankManager")): Object: 'Object Repository/XYZBank/StartPage/LoginasBankManager' is clicked on
+
+24-07-2024T23:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/XYZBank/StartPage/LoginasBankManager' is clicked on
+
+24-07-2024T23:01:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/XYZBank/LoginAsBankManager' successfully
+
+24-07-2024T23:01:10 - [TEST_STEP][PASSED] - click(findTestObject("XYZBank/BankManager/BankManagerHomePage/Customers")): Object: 'Object Repository/XYZBank/BankManager/BankManagerHomePage/Customers' is clicked on
+
+24-07-2024T23:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/XYZBank/BankManager/BankManagerHomePage/Customers' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/XYZBank/BankManager/OpenAccount" time="5.193" classname="Test Cases/XYZBank/BankManager/OpenAccount" status="PASSED">
+         <system-out><![CDATA[24-07-2024T23:01:10 - [TEST_CASE][PASSED] - Test Cases/XYZBank/BankManager/OpenAccount: Test Cases/XYZBank/BankManager/OpenAccount
+
+24-07-2024T23:01:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("XYZBank/LoginAsBankManager"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/XYZBank/LoginAsBankManager' successfully
+
+24-07-2024T23:01:10 - [TEST_CASE][PASSED] - Test Cases/XYZBank/LoginAsBankManager: Test Cases/XYZBank/LoginAsBankManager
+
+24-07-2024T23:01:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-07-2024T23:01:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+24-07-2024T23:01:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-07-2024T23:01:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-07-2024T23:01:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-07-2024T23:01:12 - [TEST_STEP][PASSED] - navigateToUrl(XYZBank): Navigate to 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login' successfully
+
+24-07-2024T23:01:14 - [MESSAGE][PASSED] - Navigate to 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login' successfully
+
+24-07-2024T23:01:14 - [TEST_STEP][PASSED] - click(findTestObject("XYZBank/StartPage/LoginasBankManager")): Object: 'Object Repository/XYZBank/StartPage/LoginasBankManager' is clicked on
+
+24-07-2024T23:01:15 - [MESSAGE][PASSED] - Object: 'Object Repository/XYZBank/StartPage/LoginasBankManager' is clicked on
+
+24-07-2024T23:01:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/XYZBank/LoginAsBankManager' successfully
+
+24-07-2024T23:01:15 - [TEST_STEP][PASSED] - click(findTestObject("XYZBank/BankManager/BankManagerHomePage/OpenAccount")): Object: 'Object Repository/XYZBank/BankManager/BankManagerHomePage/OpenAccount' is clicked on
+
+24-07-2024T23:01:16 - [MESSAGE][PASSED] - Object: 'Object Repository/XYZBank/BankManager/BankManagerHomePage/OpenAccount' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/XYZBank/BankManager/SeelctAddCustomer" time="4.573" classname="Test Cases/XYZBank/BankManager/SeelctAddCustomer" status="PASSED">
+         <system-out><![CDATA[24-07-2024T23:01:16 - [TEST_CASE][PASSED] - Test Cases/XYZBank/BankManager/SeelctAddCustomer: Test Cases/XYZBank/BankManager/SeelctAddCustomer
+
+24-07-2024T23:01:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("XYZBank/LoginAsBankManager"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/XYZBank/LoginAsBankManager' successfully
+
+24-07-2024T23:01:16 - [TEST_CASE][PASSED] - Test Cases/XYZBank/LoginAsBankManager: Test Cases/XYZBank/LoginAsBankManager
+
+24-07-2024T23:01:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-07-2024T23:01:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+24-07-2024T23:01:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-07-2024T23:01:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-07-2024T23:01:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-07-2024T23:01:17 - [TEST_STEP][PASSED] - navigateToUrl(XYZBank): Navigate to 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login' successfully
+
+24-07-2024T23:01:19 - [MESSAGE][PASSED] - Navigate to 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login' successfully
+
+24-07-2024T23:01:19 - [TEST_STEP][PASSED] - click(findTestObject("XYZBank/StartPage/LoginasBankManager")): Object: 'Object Repository/XYZBank/StartPage/LoginasBankManager' is clicked on
+
+24-07-2024T23:01:19 - [MESSAGE][PASSED] - Object: 'Object Repository/XYZBank/StartPage/LoginasBankManager' is clicked on
+
+24-07-2024T23:01:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/XYZBank/LoginAsBankManager' successfully
+
+24-07-2024T23:01:19 - [TEST_STEP][PASSED] - click(findTestObject("XYZBank/BankManager/BankManagerHomePage/AddCustomer")): Object: 'Object Repository/XYZBank/BankManager/BankManagerHomePage/AddCustomer' is clicked on
+
+24-07-2024T23:01:20 - [MESSAGE][PASSED] - Object: 'Object Repository/XYZBank/BankManager/BankManagerHomePage/AddCustomer' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-07-2024T23:01:03 - [TEST_SUITE][PASSED] - Manager: Test Cases/XYZBank/BankManager/SeelctAddCustomer]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

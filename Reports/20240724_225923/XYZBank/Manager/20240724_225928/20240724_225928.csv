@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Manager,Chrome 126.0.0.0,,,24-07-2024 23:01:03,24-07-2024 23:01:20,17.313s,PASSED
+,,,,,,,
+Test Cases/XYZBank/BankManager/Customers,Chrome 126.0.0.0,,,24-07-2024 23:01:03,24-07-2024 23:01:10,7.229s,PASSED
+"callTestCase(findTestCase(""XYZBank/LoginAsBankManager""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,24-07-2024 23:01:04,24-07-2024 23:01:10,6.054s,PASSED
+"click(findTestObject(""XYZBank/BankManager/BankManagerHomePage/Customers""))",Chrome 126.0.0.0,,,24-07-2024 23:01:10,24-07-2024 23:01:10,0.652s,PASSED
+,,,,,,,
+Test Cases/XYZBank/BankManager/OpenAccount,Chrome 126.0.0.0,,,24-07-2024 23:01:10,24-07-2024 23:01:16,5.193s,PASSED
+"callTestCase(findTestCase(""XYZBank/LoginAsBankManager""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,24-07-2024 23:01:10,24-07-2024 23:01:15,4.455s,PASSED
+"click(findTestObject(""XYZBank/BankManager/BankManagerHomePage/OpenAccount""))",Chrome 126.0.0.0,,,24-07-2024 23:01:15,24-07-2024 23:01:16,0.651s,PASSED
+,,,,,,,
+Test Cases/XYZBank/BankManager/SeelctAddCustomer,Chrome 126.0.0.0,,,24-07-2024 23:01:16,24-07-2024 23:01:20,4.573s,PASSED
+"callTestCase(findTestCase(""XYZBank/LoginAsBankManager""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,24-07-2024 23:01:16,24-07-2024 23:01:19,3.831s,PASSED
+"click(findTestObject(""XYZBank/BankManager/BankManagerHomePage/AddCustomer""))",Chrome 126.0.0.0,,,24-07-2024 23:01:19,24-07-2024 23:01:20,0.655s,PASSED

@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Customer,Chrome 126.0.0.0,,,24-07-2024 22:54:11,24-07-2024 22:55:37,1m - 25.609s,FAILED
+,,,,,,,
+Test Cases/XYZBank/Customer/CustomerDepositAmount,Chrome 126.0.0.0,,,24-07-2024 22:54:26,24-07-2024 22:54:31,5.085s,FAILED
+"callTestCase(findTestCase(""XYZBank/Customer/SelectCustomerDeposit""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,24-07-2024 22:54:26,24-07-2024 22:54:31,5.026s,FAILED
+,,,,,,,
+Test Cases/XYZBank/Customer/CustomerHomePage,Chrome 126.0.0.0,,,24-07-2024 22:54:40,24-07-2024 22:54:42,2.564s,FAILED
+"callTestCase(findTestCase(""XYZBank/LoginAsCustomer""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,24-07-2024 22:54:40,24-07-2024 22:54:42,2.532s,FAILED
+,,,,,,,
+Test Cases/XYZBank/Customer/CustomerTransaction,Chrome 126.0.0.0,,,24-07-2024 22:54:51,24-07-2024 22:54:53,2.499s,FAILED
+"callTestCase(findTestCase(""XYZBank/Customer/SelectCustomerTransactions""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,24-07-2024 22:54:51,24-07-2024 22:54:53,2.474s,FAILED
+,,,,,,,
+Test Cases/XYZBank/Customer/CustomerWithdrawal,Chrome 126.0.0.0,,,24-07-2024 22:55:03,24-07-2024 22:55:06,3.090s,FAILED
+"callTestCase(findTestCase(""XYZBank/Customer/SelectCustomerWithdrawal""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,24-07-2024 22:55:03,24-07-2024 22:55:06,3.006s,FAILED
+,,,,,,,
+Test Cases/XYZBank/Customer/SelectCustomerDeposit,Chrome 126.0.0.0,,,24-07-2024 22:55:14,24-07-2024 22:55:17,2.960s,FAILED
+"callTestCase(findTestCase(""XYZBank/Customer/CustomerHomePage""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,24-07-2024 22:55:14,24-07-2024 22:55:17,2.936s,FAILED
+,,,,,,,
+Test Cases/XYZBank/Customer/SelectCustomerTransactions,Chrome 126.0.0.0,,,24-07-2024 22:55:24,24-07-2024 22:55:27,2.265s,FAILED
+"callTestCase(findTestCase(""XYZBank/Customer/CustomerHomePage""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,24-07-2024 22:55:24,24-07-2024 22:55:27,2.239s,FAILED
+,,,,,,,
+Test Cases/XYZBank/Customer/SelectCustomerWithdrawal,Chrome 126.0.0.0,,,24-07-2024 22:55:34,24-07-2024 22:55:37,2.742s,FAILED
+"callTestCase(findTestCase(""XYZBank/Customer/CustomerHomePage""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,24-07-2024 22:55:34,24-07-2024 22:55:37,2.715s,FAILED
